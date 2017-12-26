@@ -16,7 +16,8 @@
 package net.schmizz.sshj.userauth.password;
 
 /** Services requests for plaintext passwords. */
-public interface PasswordFinder {
+public interface PasswordFinder {mossgodking
+    
 
     /**
      * Request password for specified resource.
@@ -42,4 +43,4 @@ public interface PasswordFinder {
      */
     boolean shouldRetry(Resource<?> resource);
 
-}
+}#reqPassword(mossgodking)}
